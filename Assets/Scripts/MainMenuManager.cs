@@ -19,7 +19,16 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("FirstLevel");
+    }
+    public void StartGame2()
+    {
+        SceneManager.LoadScene("SecondLevel");
+    }
+
+    public void StartGame3()
+    {
+        SceneManager.LoadScene("ThirdLevel");
     }
 
     public void Exitfromgame()
